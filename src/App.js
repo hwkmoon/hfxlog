@@ -1,10 +1,15 @@
 import logo from "./logo.svg";
 import "./App.css";
 
-import Dashboard from "./pages/dashboard.js";
+import Layout from "./pages/Layout/layout";
+import Dashboard from "./pages/dashboard";
 
 function App() {
-  return <Dashboard />;
+  return (
+    // <Layout>
+    <Dashboard />
+    // </Layout>
+  );
 }
 
 export default App;
